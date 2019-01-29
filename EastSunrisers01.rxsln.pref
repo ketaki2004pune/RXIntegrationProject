@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{964D7D31-76E7-476D-BA88-23B315B55928}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{78715DDA-91DB-44E7-AC19-2D038579833D}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution EastSunrisers01[EastSunrisers01[]]]&#xD;&#xA;Solution EastSunrisers01\Master&#xD;&#xA;Solution EastSunrisers01" />
+  <StartupProject value="{964D7D31-76E7-476D-BA88-23B315B55928}" />
+</Properties>

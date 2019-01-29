@@ -1,0 +1,134 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "78715dda-91db-44e7-ac19-2d038579833d/7983ba78-742c-4e96-b67b-c5a193663a3f",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/78715dda-91db-44e7-ac19-2d038579833d",
+      "Name": "Master"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P7",
+    "Pid": null,
+    "Name": "EAST Sunrisers",
+    "BaseUri": "https://cyteltestrail01.testrail.io/",
+    "ProjectSuiteMode": 1,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/78715dda-91db-44e7-ac19-2d038579833d",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "Master"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "78715dda-91db-44e7-ac19-2d038579833d/7983ba78-742c-4e96-b67b-c5a193663a3f",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/78715dda-91db-44e7-ac19-2d038579833d",
+        "Name": "Master"
+      },
+      "Tr": {
+        "Id": "S10",
+        "Pid": "P7",
+        "Name": "Master"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/1788e926-10ec-46bd-8994-45ec625ee80d",
+        "Pid": "78715dda-91db-44e7-ac19-2d038579833d/7983ba78-742c-4e96-b67b-c5a193663a3f",
+        "Name": "Compute modified power given sample size"
+      },
+      "Tr": {
+        "Id": "G26",
+        "Pid": "S10",
+        "Name": "Compute modified power given sample size"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/8a2fd9cf-aa36-4e00-8678-e5b27579cd29",
+        "Pid": "78715dda-91db-44e7-ac19-2d038579833d/7983ba78-742c-4e96-b67b-c5a193663a3f",
+        "Name": "ES-3 Compute modified power given power"
+      },
+      "Tr": {
+        "Id": "G42",
+        "Pid": "S10",
+        "Name": "ES-3 Compute modified power given power"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/06eb1a03-5c17-441b-9766-9786620c05bd",
+        "Pid": "7983ba78-742c-4e96-b67b-c5a193663a3f/1788e926-10ec-46bd-8994-45ec625ee80d",
+        "Name": "Modified Power Field and Value"
+      },
+      "Tr": {
+        "Id": "C58",
+        "Pid": "G26",
+        "Name": "Modified Power Field and Value"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/26c1d37e-ac96-47a2-b9c5-a94a52f4176c",
+        "Pid": "7983ba78-742c-4e96-b67b-c5a193663a3f/1788e926-10ec-46bd-8994-45ec625ee80d",
+        "Name": "Compute power given sample size value and also the corresponding modified power"
+      },
+      "Tr": {
+        "Id": "C59",
+        "Pid": "G26",
+        "Name": "Compute power given sample size value and also the corresponding modified power"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/dc4c6bb0-c1b3-44f1-8f7f-17ddd1f6ef96",
+        "Pid": "7983ba78-742c-4e96-b67b-c5a193663a3f/1788e926-10ec-46bd-8994-45ec625ee80d",
+        "Name": "Verify the input parameters and its default values for DOM design"
+      },
+      "Tr": {
+        "Id": "C60",
+        "Pid": "G26",
+        "Name": "Verify the input parameters and its default values for DOM design"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/b6f53876-46b3-4970-8caa-afff43312e03",
+        "Pid": "7983ba78-742c-4e96-b67b-c5a193663a3f/1788e926-10ec-46bd-8994-45ec625ee80d",
+        "Name": "Validate the modified power output on creating design with input of valid parameters"
+      },
+      "Tr": {
+        "Id": "C61",
+        "Pid": "G26",
+        "Name": "Validate the modified power output on creating design with input of valid parameters"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7983ba78-742c-4e96-b67b-c5a193663a3f/5a8a6c50-61d4-427f-b924-2a13e109f84d",
+        "Pid": "7983ba78-742c-4e96-b67b-c5a193663a3f/8a2fd9cf-aa36-4e00-8678-e5b27579cd29",
+        "Name": "Compute sample size and modified power given power value and other valid parameters"
+      },
+      "Tr": {
+        "Id": "C100",
+        "Pid": "G42",
+        "Name": "Compute sample size and modified power given power value and other valid parameters"
+      }
+    }
+  ]
+}
